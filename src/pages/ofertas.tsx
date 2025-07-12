@@ -4,7 +4,6 @@ import ProductList from '../components/ProductList';
 import Layout from '../components/Layout'
 import Link from 'next/link';
 import { GoArrowLeft } from "react-icons/go";
-import '../styles/globals.css'
 
 export default function Ofertas() {
   return (

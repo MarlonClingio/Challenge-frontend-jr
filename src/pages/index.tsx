@@ -2,7 +2,6 @@ import Banner from '@/components/Banner'
 import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../components/Layout'
-import '../styles/globals.css'
 
 export default function Home() {
   return (
