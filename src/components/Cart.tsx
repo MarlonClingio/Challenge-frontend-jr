@@ -26,7 +26,7 @@ export default function Cart() {
 
       <div className="flex justify-between items-center px-4 border-t border-t-gray-200 pt-2">
         <button
-          className="bg-white bg-green-600 text-white border px-8 py-2 rounded hover:bg-green-700 transition-colors"
+          className="bg-green-600 text-white border px-8 py-2 rounded hover:bg-green-700"
         >
           Finalizar
         </button>
