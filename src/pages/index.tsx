@@ -1,4 +1,4 @@
-import Banner from '@/components/Banner'
+import { Banner, BannerMobile } from '@/components/Banner'
 import Head from 'next/head'
 import Link from 'next/link'
 import Layout from '../components/Layout'
@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <Layout>
       <Head>
-        <title>Minha Loja</title>
+        <title>Store Brand</title>
       </Head>
       <main className="flex flex-col items-center h-full text-center mt-16">
         <Banner />
@@ -16,6 +16,7 @@ export default function Home() {
         <Link href="/ofertas" className="bg-gray-700 text-white px-6 py-2 rounded hover:bg-gray-600 mb-8">
             Ver Ofertas
         </Link>
+        <BannerMobile />
       </main>
     </Layout>
   )

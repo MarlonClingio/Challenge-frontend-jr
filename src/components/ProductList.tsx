@@ -8,7 +8,7 @@ export default function ProductList() {
   const [selectedCategory, setSelectedCategory] = useState('')
   const [selectedPriceRange, setSelectedPriceRange] = useState('')
   const [currentPage, setCurrentPage] = useState(1)
-  const productsPerPage = 6
+  const productsPerPage = 9
 
   // Fetch dos produtos
   useEffect(() => {

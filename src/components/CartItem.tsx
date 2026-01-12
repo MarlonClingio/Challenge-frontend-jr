@@ -24,7 +24,7 @@ export default function CartItem({ product }: Props) {
           <button onClick={() => increaseQuantity(product.id)} className="border px-1 rounded"> <FiPlus /> </button>
         </div>
       </div>
-      <button onClick={() => removeFromCart(product.id)} className="text-red-500">
+      <button onClick={() => removeFromCart(product.id)} className="text-red-500 hover:text-red-300">
         <FiTrash />
       </button>
     </div>

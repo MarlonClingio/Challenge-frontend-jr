@@ -1,13 +1,27 @@
 import Image from 'next/image'
 
-export default function Banner() {
+export function Banner() {
   return (
     <div className="w-full h-full relative">
       <Image
         src="/banner_principal.jpeg"
         alt="Banner de Ofertas"
-        width={2500} 
+        width={1500} 
         height={500}
+        priority
+      />
+    </div>
+  )
+}
+
+export function BannerMobile() {
+  return (
+    <div className="w-full h-full relative md:hidden block">
+      <Image
+        src="/Sale-mobile.png"
+        alt="Banner de Ofertas mobile"
+        width={750} 
+        height={1024}
         priority
       />
     </div>

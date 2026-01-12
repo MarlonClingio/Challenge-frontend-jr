@@ -1,3 +1,4 @@
+import { FiShoppingCart } from 'react-icons/fi'
 import { useCart } from '../context/CartContext'
 import CartItem from './CartItem'
 
@@ -20,7 +21,10 @@ export default function Cart() {
             <CartItem key={product.id} product={product} />
           ))
         ) : (
-          <p className="text-gray-500 text-center mt-12">Carrinho vazio.</p>
+          <>
+            <p className="text-gray-500 text-center mt-12">Carrinho Vazio!</p>
+            <FiShoppingCart className='text-7xl mt-6 m-auto'/>
+          </>
         )}
       </div>
 
