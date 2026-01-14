@@ -59,7 +59,7 @@ export default function ProductDetail() {
               <span className="bg-yellow-100 text-yellow-700 px-2 py-1 rounded text-sm font-bold">
                 ★ {product?.rating?.rate}
               </span>
-              <span className="text-gray-400 text-sm">({product.rating?.count} avaliações)</span>
+              <span className="text-gray-400 text-sm">({product?.rating?.count} avaliações)</span>
             </div>
 
             <p className="text-4xl font-light text-gray-900 mb-6">

@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import { Banner } from '../components/Banner';
 import ProductList from '../components/ProductList';
 import Layout from '../components/Layout'
 import Link from 'next/link';

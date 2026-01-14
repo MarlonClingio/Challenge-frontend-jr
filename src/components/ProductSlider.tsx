@@ -12,7 +12,7 @@ export default function ProductSlider() {
       try {
         const res = await fetch('https://fakestoreapi.com/products');
         const data: Product[] = await res.json();
-        setProducts(data.filter((product) => product.rating.rate > 4).slice(0, 5));
+        setProducts(data.filter((product) => product?.rating?.rate > 4).slice(0, 5));
       } catch (error) {
         console.error("Erro ao carregar slides:", error);
       } finally {
