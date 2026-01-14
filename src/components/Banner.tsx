@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export function Banner() {
   return (
-    <div className="w-full h-full relative">
+    <div className="w-full h-full relative md:block hidden">
       <Image
         src="/banner_principal.jpeg"
         alt="Banner de Ofertas"

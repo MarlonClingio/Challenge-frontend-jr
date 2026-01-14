@@ -12,7 +12,6 @@ export default function Ofertas() {
         <title>Ofertas da Semana</title>
       </Head>
       <main className="flex flex-col h-full mt-16">
-        <Banner />
         <div className="flex justify-left h-full text-center mx-8 my-6 max-sm:mx-4">
           <Link href="/" className="flex items-center gap-2 text-gray-800 rounded hover:underline">
               <GoArrowLeft /> Voltar á Página Inicial
